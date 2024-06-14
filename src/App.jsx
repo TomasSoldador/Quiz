@@ -45,7 +45,7 @@ function App() {
   };
 
   const video = () => {
-    window.open("https://youtu.be/s-JvoJbx1o8", "_blank");
+    window.open("https://www.youtube.com/watch?v=kwXQQ7UC2Mw&ab_channel=Jeczera", "_blank");
   };
 
   return (
