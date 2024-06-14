@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './globals.css';
 
 function App() {
-  const [numPage, setNumPage] = useState(8);
+  const [numPage, setNumPage] = useState(0);
   const [fade, setFade] = useState(false);
   const [showIntro, setShowIntro] = useState(false);
   const [buttonPosition, setButtonPosition] = useState({ x: 0, y: 0 });
