@@ -118,8 +118,8 @@ function App() {
         <div className="bg-white bg-opacity-20 rounded-xl p-10 flex flex-col gap-5 justify-center items-center shadow-xl transform transition duration-500 hover:scale-105">
           <h1 className="text-2xl font-bold animate-fade-in">Qual é a mulher mais bonita?</h1>
           <div className="flex flex-col gap-5 md:flex-row">
-            <img onClick={fotosNextPage} src="../public/portrait-of-happy-mature-women-ezgif.com-webp-to-jpg-converter.jpg" alt="" className="w-64 h-64 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
-            <img onClick={fotosNextPage} src="../public/summer-selfie-ezgif.com-webp-to-jpg-converter.jpg" alt="" className="h-64 w-64 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
+            <img onClick={fotosNextPage} src="/portrait-of-happy-mature-women-ezgif.com-webp-to-jpg-converter.jpg" alt="" className="w-64 h-64 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
+            <img onClick={fotosNextPage} src="/summer-selfie-ezgif.com-webp-to-jpg-converter.jpg" alt="" className="h-64 w-64 cursor-pointer hover:scale-110 transition duration-300 ease-in-out" />
           </div>
         </div>
       )}
